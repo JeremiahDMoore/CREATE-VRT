@@ -1,4 +1,4 @@
-# VRT-TEMPLATE
+# CREATE-VRT
 
 Boilerplate template to get your Vite, React, Tailwind project set up quickly.
 
