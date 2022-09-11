@@ -21,5 +21,22 @@
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
     "vite": "^3.1.0"
-  }
+  },
+  "description": "Boilerplate template to get your Vite, React, Tailwind project set up quickly.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stacksantos/CREATE-VRT.git"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "tailwindcss"
+  ],
+  "author": "stacksantos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stacksantos/CREATE-VRT/issues"
+  },
+  "homepage": "https://github.com/stacksantos/CREATE-VRT#readme"
 }
