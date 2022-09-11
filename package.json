@@ -1,42 +1,51 @@
 {
-  "name": "create-vrt",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "prettier": "^2.7.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.1.0",
-    "autoprefixer": "^10.4.8",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8",
-    "vite": "^3.1.0"
-  },
-  "description": "Boilerplate template to get your Vite, React, Tailwind project set up quickly.",
-  "main": "vite.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stacksantos/CREATE-VRT.git"
-  },
-  "keywords": [
-    "vite",
-    "react",
-    "tailwindcss"
-  ],
-  "author": "stacksantos",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stacksantos/CREATE-VRT/issues"
-  },
-  "homepage": "https://github.com/stacksantos/CREATE-VRT#readme"
+	"name": "create-vrt",
+	"private": false,
+	"version": "1.0.2",
+	"type": "module",
+	"files": [
+		""
+	],
+	"bin": {
+		"create-vrt": "./index.js"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"prettier": "^2.7.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.17",
+		"@types/react-dom": "^18.0.6",
+		"@vitejs/plugin-react": "^2.1.0",
+		"autoprefixer": "^10.4.8",
+		"postcss": "^8.4.16",
+		"tailwindcss": "^3.1.8",
+		"vite": "^3.1.0"
+	},
+	"description": "Boilerplate template to get your Vite, React, Tailwind project set up quickly.",
+	"main": "vite.config.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stacksantos/CREATE-VRT.git"
+	},
+	"engines": {
+		"node": ">=14"
+	},
+	"keywords": [
+		"vite",
+		"react",
+		"tailwindcss"
+	],
+	"author": "stacksantos",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/stacksantos/CREATE-VRT/issues"
+	},
+	"homepage": "https://github.com/stacksantos/CREATE-VRT#readme"
 }
