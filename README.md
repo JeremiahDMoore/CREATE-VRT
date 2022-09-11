@@ -2,4 +2,6 @@
 
 Boilerplate template to get your Vite, React, Tailwind project set up quickly.
 
-Run npm install after cloning to your local env.
+CD into the folder and run npm install after cloning to your local machine.
+
+
