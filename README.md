@@ -27,7 +27,7 @@ Boilerplate template to get your Vite, React, Tailwind project set up quickly.
 - In your terminal run `npm install`
 - Then run `npm run dev`
 - Hold ctrl (or whatever for mac) and click the link it gives you.
-- In your src folder you'll see the "App.jsx". Follow the directions.
+- Follow the directions on the screen.
 
 ## Happy hacking!
 
