@@ -17,19 +17,17 @@ Boilerplate template to get your Vite, React, Tailwind project set up quickly.
 - On github, press the big green code button.
 - Copy the code url.
 - On your local machine, CD into the folder you want to install into.
-- In your terminal run ```git clone https://github.com/stacksantos/CREATE-VRT.git``` 
+- In your terminal run `git clone https://github.com/stacksantos/CREATE-VRT.git`
 
 <hr>
 
 ### Running the project
 
-- In your terminal run ```npm install```
-- Then run ```npm run dev```
-- Hold ctrl (command for mac) and click the link it gives you.
+- In your terminal run `npm install`
+- Then run `npm run dev`
+- Hold ctrl (or whatever for mac) and click the link it gives you.
 - In your src folder you'll see the "App.jsx". Follow the directions.
 
 ## Happy hacking!
 
 Currently working on converting this to an npm package from the github repo.
-
-
