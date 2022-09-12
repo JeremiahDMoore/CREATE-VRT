@@ -23,6 +23,7 @@ Boilerplate template to get your Vite, React, Tailwind project set up quickly.
 
 ### Running the project
 
+- First CD into the CREATE-VRT folder.
 - In your terminal run `npm install`
 - Then run `npm run dev`
 - Hold ctrl (or whatever for mac) and click the link it gives you.
