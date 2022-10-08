@@ -3,6 +3,9 @@
 	"private": false,
 	"version": "1.0.3",
 	"type": "module",
+	"bin": {
+		"create-vrt": "./create-vrt.js"
+	},
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
