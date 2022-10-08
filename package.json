@@ -4,7 +4,7 @@
 	"version": "1.0.3",
 	"type": "module",
 	"bin": {
-		"create-vrt": "./create-vrt.js"
+		"create-vrt": "./bin/create-vrt.cjs"
 	},
 	"scripts": {
 		"dev": "vite",
@@ -14,7 +14,8 @@
 	"dependencies": {
 		"prettier": "^2.7.1",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"rimraf": "^3.0.2"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.17",
