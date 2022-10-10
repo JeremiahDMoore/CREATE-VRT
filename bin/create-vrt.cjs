@@ -5,7 +5,6 @@
 const path = require('path')
 const util = require('util')
 const fs = require('fs')
-const { execSync } = require( 'child_process' )
 const exec = util.promisify(require('child_process').exec)
 
 
@@ -28,17 +27,20 @@ if (process.argv.length < 3) {
   process.exit(1)
 }
 
-const currentPath = process.cwd()
-const projectName = process.argv[2]
-const projectPath = path.join(currentPath, projectName)
+
+
+const thisDirectory = process.cwd()
+const yourProject = process.argv[2]
+const projectPath = path.join(thisDirectory, yourProject)
 const repo = 'https://github.com/stacksantos/CREATE-VRT.git'
+
 
 try {
   fs.mkdirSync(projectPath)
 } catch (err) {
   if (err.code === 'EEXIST') {
     console.log(
-      `The file ${projectName} already exist in the current directory, please give it another name.`
+      `The file ${yourProject} already exist in the current directory, please give it another name.`
     )
   } else {
     console.log(error)
@@ -48,18 +50,19 @@ try {
 
 async function main() {
   try {
-    console.log('\x1b[33m', 'Getting the goods...', '\x1b[0m')
-    exec(`git clone ${repo} ${projectPath}`)
+    console.log( '\x1b[33m', 'Getting the goods...', '\x1b[0m' )
+    console.log()
+    exec(`git clone --depth=1 ${repo} ${projectPath}`)
 
     process.chdir(projectPath)
-
+    
     console.log('BEEP BOOP BEEP...')
     await runCmd('npm install')
     console.log('Getting rid of the junk...')
 
     await runCmd('npx rimraf ./.git')
 
-    // fs.rm(path.join(projectPath, 'bin'), { recursive: true })
+    fs.rm(path.join(projectPath, 'bin'), { recursive: true }, (error) => {"I couldn't take out the trash?"})
 
     console.log('Good to go! Now build something awesome!')
   } catch (error) {
