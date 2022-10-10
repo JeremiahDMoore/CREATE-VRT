@@ -1,8 +1,9 @@
 # CREATE-VRT
 
-## DO NOT INSTALL FROM NPM. PACKAGE NOT COMPLETE AND WILL NOT RUN.
-
 Boilerplate template to get your Vite, React, Tailwind project set up quickly.
+You have have 3 options to use this template. First is downloading the folder from github, second is cloning to local from github, and third (easiest) is using the package via "npx create-vrt 'your-app-name'".  I've provided instructions for all three.
+
+<hr>
 
 ### Downloading from Github
 
@@ -29,6 +30,14 @@ Boilerplate template to get your Vite, React, Tailwind project set up quickly.
 - Hold ctrl (or whatever for mac) and click the link it gives you.
 - Follow the directions on the screen.
 
+<hr>
+
+### Using the NPM package (easiest way)
+
+- First create or navigate to the folder you'll want to put your new app folder into.
+- Next open up your terminal and run "npx create-vrt 'your-app-name'"
+- Everything is installed automatically, to confirm run 'npm run dev' and click or navigate to the localhost link provided.
+- That's it!
+
 ## Happy hacking!
 
-Currently working on converting this to an npm package from the github repo.
